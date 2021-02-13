@@ -1,0 +1,29 @@
+.dashboard{
+    width: 915px;
+    max-width: 80%;
+    min-height: 80vh;
+    background-color: rgba(231, 231, 231, 0.479);
+}
+.dashboard__heading{
+    padding: 7px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    font-weight: 900;
+    font-size: medium;
+}
+.dashboard__folders{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:400px){
+    .dashboard{
+        max-width: 87%;
+    }
+    .header__search{
+        margin-right: 5px;
+    }
+}

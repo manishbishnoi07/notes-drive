@@ -1,0 +1,59 @@
+.file__link{
+    display: flex;
+    width: 93%;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding: 0 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .2ms;
+    position: relative;
+}
+.file{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+.file__link:hover{
+    background-color: rgb(255, 255, 255);
+}
+.file__logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.file__logo svg{
+    height: 35px;
+    width: 35px;
+}
+.file__info{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.file__name{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 5px;
+}
+.file__name h4{
+    color: rgb(20, 20, 20);
+    max-width: 450px;
+    overflow: hidden;
+}
+.file__info h5{
+    font-size: x-small;
+    margin: 12px;
+    color: rgb(87, 87, 87);
+}
+@media screen and (max-width:600px){
+    .file__info h5{
+        display: none;
+    }
+    .file__name h4{
+        font-size: 12px;
+    }
+}
